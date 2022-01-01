@@ -7,5 +7,5 @@ Päätimme palvelun aiheeksi parturikampaamo. Työstettiin sivulle toimiva etusi
 ![Parturi_2](https://user-images.githubusercontent.com/54435867/147855990-8848f93e-7fa2-4390-94ca-21592e50c0e9.jpg)
 
 
-Parturi sivustolla käytettyt kielet: HTML, CSS, Vue.js
+Parturi sivustolla käytettyt kielet: HTML, CSS, Vue.js and javascript
 
