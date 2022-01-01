@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Import Google Icon Font -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons&Material+Icons+Two+Tone" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Vue JS -->
+    <script src="vue.js"></script>
+    <!-- Firebase -->
+    <script src="https://www.gstatic.com/firebasejs/8.4.1/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.4.1/firebase-database.js"></script>
+    <script src="firebase.js"></script>
+    <script src="admin.js"></script>
+
+    <!--bootsrapin CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+
+    <!-- Import materialize.css -->
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="materialize.min.css">
+
+    <title>Booking System</title>
+    <style>
+        section.content {
+            width: 95% !important;
+            margin: 20px !important;
+        }
+
+        .content table tr th {
+            background: #dadada85;
+            color: black;
+            font-size: 1.4rem;
+            text-align: center;
+        }
+
+        .content .pending tr td {
+            background: rgba(128, 128, 128, 0.7);
+            color: whitesmoke;
+            text-align: center;
+        }
+
+        .content .approved tr td {
+            background: rgba(85, 255, 10, 0.7);
+            color: whitesmoke;
+            text-align: center;
+        }
+    </style>
+
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-custom fixed-top" id="mainNavbar">
+            <button class="navbar-toggler custom-toggler" type="button" data-toggle="collapse"
+                data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span>
+            </button>
+            <img src="Logo.png" alt="logo" style="width:45px; margin-right: 5px;">
+            <a class="navbar-brand" href="#alku">Tripla AAA</a>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Etusivu <span class="sr-only"></span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="varauskalenteri1.html">Varaa aika</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <div id="main" class="maindiv">
+        <section class="content">
+            <admin></admin>
+        </section>
+    </div>
+
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <!-- jQuery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <!-- Popper JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <!-- Vue Resource -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/vue-resource/1.5.1/vue-resource.min.js"></script>
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <!-- bootstrap -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script>
+        var app = new Vue({
+            el: "#main",
+            data: {},
+
+            methods: {
+
+            },
+        })
+    </script>
+</body>
+
+
+
+
+</html>
